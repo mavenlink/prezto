@@ -39,4 +39,4 @@ bindkey -s "^[Oj" "*"
 bindkey -s "^[Oo" "/"
 
 # Mavenlink
-source "$HOME/.mavenlink-bash.sh"
+SHELL='/usr/local/bin/zsh' source "$HOME/.mavenlink-bash.sh"
