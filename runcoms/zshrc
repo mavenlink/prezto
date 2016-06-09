@@ -41,6 +41,10 @@ bindkey -s "^[Oo" "/"
 # Mavenlink
 SHELL='/usr/local/bin/zsh' source "$HOME/.mavenlink-bash.sh"
 
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/base16-ocean.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
 # Homeshick
 [ -e  ~/.homesick/repos/homeshick/homeshick.sh ] && source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
